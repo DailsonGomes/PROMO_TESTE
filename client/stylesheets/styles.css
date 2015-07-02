@@ -1,0 +1,112 @@
+
+body {
+    background-color: #1f1f1f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(black), to(gray)) repeat-x;*/
+
+}
+
+div#geral{
+    width:950px;
+    margin:0 auto;
+    background: linear-gradient(white,white,#EEEEEE);
+    padding: 30px;
+    border: 1px solid black;
+
+}
+header h1{
+   border:1px solid black;
+   text-align: left;
+   /*width: 50%;*/
+   float: left;
+
+
+}
+.login_acessar{
+    mso-footer-margin: 20px;
+    width: 908px;
+}
+form{
+    background-color:red;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 0 auto;
+    margin-bottom: 20px;
+    height:67px;
+    width: 467px;
+    margin-top:  0px;
+}
+form p{
+    margin-left: 20px;
+}
+nav{
+    clear: both;
+    text-align: right;
+}
+nav ul{
+    background-color: #1f1f1f;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1.5em 1.5em;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    outline: 0;
+    text-align: center;
+
+}
+
+nav ul li a{
+    text-align: right;
+    color: white;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

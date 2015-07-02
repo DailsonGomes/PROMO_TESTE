@@ -1,0 +1,63 @@
+<template name="navigation">
+
+   <html lang="pt-BR">
+
+        <head>
+            <title>Promo)</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+        <div id="geral">
+
+            <header>
+                <h1><img src="#" alt="Promo Logo" style="width:150px; height:100px" /></h1>
+                <div clss="login_acessar" style="padding: 25px;>
+                    <form>
+                        <p>
+                            <label id="login-username-label" for="login-username">Username</label>
+                            <input id="login-username" type="text"><br />
+
+
+                            <label id="login-password-label" for="login-password">Password</label>
+                            <input id="login-password" type="password">
+
+
+                            <button id="login-buttons-password" type="button" class="btn brn-primat">
+                                sign in
+                            </button>
+                            <button id="signup-link" type="button" class="btn">Create account</button>
+                        </p>
+                    </form>
+                </div>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="{{pathFor 'index'}}">Inicio</a></li>
+                    <li><a href="{{pathFor 'estabelecimentos'}}">Estabelecimentos</a></li>
+                    <li><a href="{{pathFor 'promocao'}}">Promocoes</a></li>
+                    <li><a href="{{pathFor 'ranking'}}">Ranking</a></li>
+                    <li><a href="{{pathFor 'quemSomos'}}">Quem Somos</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>London</h1>
+                <p>
+                    London is the capital city of England. It is the most populous city in the United Kingdom,
+                    with a metropolitan area of over 13 million inhabitants.
+                </p>
+                <p>
+                    Standing on the River Thames, London has been a major settlement for two millennia,
+                    its history going back to its founding by the Romans, who named it Londinium.
+                </p>
+            </section>
+                <footer>
+                    Copyright © PROMO 2015
+                </footer>
+        </div>
+
+        </body>
+
+   </html>
+
+</template>
+
